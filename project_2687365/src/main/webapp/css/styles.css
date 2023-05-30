@@ -1,26 +1,23 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 body{
-    background-color: lightskyblue;
+    background-color: #dbd1d1;
 }
-
-.navbar{
+.navbar
+{
     padding: 1rem;
 }
-
 .navbar-collapse{
     align-items: center;
     justify-content: space-between;
 }
-
-footer {
+footer{
     align-items: center;
     justify-content: space-between;
 }
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
     }
