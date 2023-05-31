@@ -34,10 +34,10 @@
 <body class="text-center">
 <!-- login form -->
 <main class="form-signin w-100 m-auto" class="text-center">
-  <form action="registerUser" method="post">
-    <img class="mb-4" src="./img/imagen.png" alt="MY APP" width=100>
-    <h4 class="text-secondary">CarUnity</h4>
-    <h1 class="h5 mb-3 fw-normal">Ingresar</h1>
+    <form action="" method="post">
+        <img class="mb-4" src="./img/login.png" alt="MY APP" width=100>
+        <h4 class="text-secondary">My -APP</h4>
+        <h1 class="h5 mb-3 fw-normal">Ingreso</h1>
     <div class="form-floating">
       <input type="text" name="user_firstname" class="form-control" id="floatingFirstName" placeholder="Ingrese su Apellido" required
              pattern="[A-Za-z ]{2,40}">
@@ -63,7 +63,7 @@
       <a href="product.jsp">Registrar producto</a>
       <a href="category.jsp">Registrar categoria</a>
     </div>
-    <p class="mt-3 mb-3 text-muted">Todos los Derechos Reservados CarUnity ©<%=displayDate()%>
+       <p class="mt-3 mb-3 text-muted">Todos los Derechos Reservados MY APP ©<%=displayDate()%>
     </p>
     </div>
   </form>
